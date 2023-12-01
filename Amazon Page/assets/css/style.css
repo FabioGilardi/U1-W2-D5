@@ -1,0 +1,200 @@
+/* Your styles here */
+
+/* General */
+
+body {
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Logo */
+
+header div {
+  width: 100vw;
+  background-color: #222f3f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+header img {
+  width: 8%;
+}
+
+/* Nav */
+
+nav {
+  width: 100vw;
+  background-color: #364759;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* Main */
+
+main {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main orange section */
+
+#orange-section {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+}
+
+/* Main title section */
+
+#title-section {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+#title-section div {
+  /* Ho cercato di replicare il pattern di sfondo del mockup */
+  background-image: url("../images/bg-image.png");
+  background-position: top left;
+  background-size: 92%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+#title-section h2 {
+  color: white;
+  font-weight: bold;
+}
+
+/* Main first section */
+
+#first-section {
+  background-color: white;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#first-section h3 {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#first-section a {
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #11767e;
+}
+
+#div-container {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Le 4 immagini perdono di qualità se la finestra viene rimpicciolita */
+
+.img-container {
+  display: inline-block;
+  width: 320px;
+  height: 380px;
+  padding-left: 13.2px;
+  padding-right: 13.2px;
+  padding-bottom: 20px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Main second and third section*/
+
+.second-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.second-section div {
+  width: 100%;
+}
+
+.second-section img {
+  width: 100%;
+}
+
+.second-section h3 {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.second-section a {
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #11767e;
+}
+
+/* Aside */
+
+aside {
+  margin-top: 40px;
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
+  background-color: #364759;
+}
+
+aside a {
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  background-color: #222f3f;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer img {
+  width: 10%;
+}
